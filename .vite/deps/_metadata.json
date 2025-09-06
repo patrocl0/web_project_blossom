@@ -1,0 +1,79 @@
+{
+  "hash": "72764957",
+  "configHash": "0237de27",
+  "lockfileHash": "17645418",
+  "browserHash": "3ccb030f",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "cd7a1625",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4365c6b4",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "3401501f",
+      "needsInterop": true
+    },
+    "@apollo/client": {
+      "src": "../../node_modules/@apollo/client/core/index.js",
+      "file": "@apollo_client.js",
+      "fileHash": "05274dcb",
+      "needsInterop": false
+    },
+    "@apollo/client/react": {
+      "src": "../../node_modules/@apollo/client/react/index.js",
+      "file": "@apollo_client_react.js",
+      "fileHash": "b4271fbd",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "a37ec5ab",
+      "needsInterop": false
+    },
+    "react-icons/ci": {
+      "src": "../../node_modules/react-icons/ci/index.mjs",
+      "file": "react-icons_ci.js",
+      "fileHash": "b8cf7b22",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "3cbd4b7f",
+      "needsInterop": false
+    },
+    "react-icons/fi": {
+      "src": "../../node_modules/react-icons/fi/index.mjs",
+      "file": "react-icons_fi.js",
+      "fileHash": "e3ee1d78",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-VV7QEEJE": {
+      "file": "chunk-VV7QEEJE.js"
+    },
+    "chunk-IIT576ZH": {
+      "file": "chunk-IIT576ZH.js"
+    },
+    "chunk-SRNTTK4A": {
+      "file": "chunk-SRNTTK4A.js"
+    },
+    "chunk-3VDXVL42": {
+      "file": "chunk-3VDXVL42.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}

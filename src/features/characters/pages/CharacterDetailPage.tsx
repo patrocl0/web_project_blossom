@@ -1,4 +1,5 @@
 import { useCharacterDetail } from "../hooks/useCharacterDetail";
+import { FaHeart } from "react-icons/fa";
 
 export const CharacterDetailPage = () => {
   const { character, loading, error } = useCharacterDetail();
@@ -13,6 +14,11 @@ export const CharacterDetailPage = () => {
         alt={character?.name}
         className="w-40 h-40 rounded-full my-4"
       />
+
+      <button className="text-2xl absolute top-[155px] left-[630px] p-[10px] text-green-500 rounded-full bg-white cursor-pointer">
+        <FaHeart />
+      </button>
+
       <h1 className="text-2xl font-bold">{character?.name}</h1>
       <div>
         <div className="grid grid-cols-1  gap-4 mt-4">
