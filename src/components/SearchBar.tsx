@@ -8,7 +8,7 @@ export const SearchBar = () => {
   console.log(search);
 
   return (
-    <div className="relative w-[375px]">
+    <div className="relative w-[100%] md:w-[375px]">
       {/* Input + botón filtro */}
       <div className="flex items-center bg-gray-200  rounded-xl px-3 py-2 shadow-sm">
         <FiSearch className="text-gray-400 mr-2 cursor-pointer" />
