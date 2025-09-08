@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useCharacters } from "../hooks/useCharacters";
-import { Sidebar } from "../../../components/Sidebar";
 import { Outlet, useLocation, useParams } from "react-router-dom";
 import { useIsMobile } from "../hooks/useIsMobile";
 import { useFilters } from "../hooks/useFilters";
+import { Sidebar } from "../components/Sidebar";
 
 export const CharactersPage = () => {
   const [page, setPage] = useState(1);

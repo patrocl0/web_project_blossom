@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
-import type { Character } from "../interfaces/Character.interface";
+import type { Character } from "../../../interfaces/Character.interface";
+import { useFavorites } from "../hooks/useFavorites";
 import { SearchBar } from "./SearchBar";
-import { useFavorites } from "../features/characters/hooks/useFavorites";
 
 interface SidebarProps {
   characters: Character[];

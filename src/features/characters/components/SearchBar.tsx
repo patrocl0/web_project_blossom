@@ -1,9 +1,9 @@
 import { useState } from "react";
+import { useFilters } from "../hooks/useFilters";
+import { useIsMobile } from "../hooks/useIsMobile";
+import { useNavigate } from "react-router-dom";
 import { FiSearch, FiSliders } from "react-icons/fi";
-import { useNavigate } from "react-router";
-import { useIsMobile } from "../features/characters/hooks/useIsMobile";
-import { useFilters } from "../features/characters/hooks/useFilters";
-import { FilterButton } from "../features/characters/components/FilterButton";
+import { FilterButton } from "./FilterButton";
 
 export const SearchBar = () => {
   const [open, setOpen] = useState(false);
@@ -53,12 +53,12 @@ export const SearchBar = () => {
         <div className="absolute top-14 left-0 w-full bg-white rounded-xl shadow-lg p-4 z-10">
           <FilterButton />
 
-          {/* <button
+          <button
             onClick={() => setOpen(false)}
             className="w-full bg-purple-500 text-white py-2 rounded-lg hover:bg-purple-600 transition"
           >
             Filter
-          </button> */}
+          </button>
         </div>
       )}
     </div>
