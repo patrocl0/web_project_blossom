@@ -2,72 +2,87 @@
   "hash": "72764957",
   "configHash": "0237de27",
   "lockfileHash": "17645418",
-  "browserHash": "3ccb030f",
+  "browserHash": "48cfb108",
   "optimized": {
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "cd7a1625",
+      "fileHash": "84919b27",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "4365c6b4",
+      "fileHash": "511e11ad",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "3401501f",
+      "fileHash": "aa8ca5ee",
       "needsInterop": true
     },
     "@apollo/client": {
       "src": "../../node_modules/@apollo/client/core/index.js",
       "file": "@apollo_client.js",
-      "fileHash": "05274dcb",
+      "fileHash": "ddb0ffeb",
       "needsInterop": false
     },
     "@apollo/client/react": {
       "src": "../../node_modules/@apollo/client/react/index.js",
       "file": "@apollo_client_react.js",
-      "fileHash": "b4271fbd",
+      "fileHash": "8d5389b9",
       "needsInterop": false
     },
     "react-router-dom": {
       "src": "../../node_modules/react-router-dom/dist/index.mjs",
       "file": "react-router-dom.js",
-      "fileHash": "a37ec5ab",
+      "fileHash": "44a2ae55",
       "needsInterop": false
     },
-    "react-icons/ci": {
-      "src": "../../node_modules/react-icons/ci/index.mjs",
-      "file": "react-icons_ci.js",
-      "fileHash": "b8cf7b22",
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "2e40b94d",
+      "needsInterop": false
+    },
+    "react-icons/io5": {
+      "src": "../../node_modules/react-icons/io5/index.mjs",
+      "file": "react-icons_io5.js",
+      "fileHash": "a6dc2d27",
       "needsInterop": false
     },
     "react-icons/fa": {
       "src": "../../node_modules/react-icons/fa/index.mjs",
       "file": "react-icons_fa.js",
-      "fileHash": "3cbd4b7f",
+      "fileHash": "28ce6c96",
+      "needsInterop": false
+    },
+    "react-icons/ci": {
+      "src": "../../node_modules/react-icons/ci/index.mjs",
+      "file": "react-icons_ci.js",
+      "fileHash": "77225050",
       "needsInterop": false
     },
     "react-icons/fi": {
       "src": "../../node_modules/react-icons/fi/index.mjs",
       "file": "react-icons_fi.js",
-      "fileHash": "e3ee1d78",
+      "fileHash": "9d57521f",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-SRNTTK4A": {
+      "file": "chunk-SRNTTK4A.js"
+    },
     "chunk-VV7QEEJE": {
       "file": "chunk-VV7QEEJE.js"
     },
+    "chunk-ZCD3LVW7": {
+      "file": "chunk-ZCD3LVW7.js"
+    },
     "chunk-IIT576ZH": {
       "file": "chunk-IIT576ZH.js"
-    },
-    "chunk-SRNTTK4A": {
-      "file": "chunk-SRNTTK4A.js"
     },
     "chunk-3VDXVL42": {
       "file": "chunk-3VDXVL42.js"
